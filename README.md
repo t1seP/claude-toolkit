@@ -19,11 +19,16 @@ apps/
 guides/
   video/           монтаж і креативи кодом: ffmpeg, Whisper, Remotion, ефекти
   tools/           PhotoCraft, Agent-Reach, Graphify, MCP-сервери
+CLAUDE.md          інструкція для Claude: як встановлювати і що брати під задачу
 PLUGINS.md         плагіни Claude Code і як їх поставити (superpowers, context7, ...)
 CATALOG.md         інші репозиторії, які я перевірив, з вердиктами
 ```
 
 ## Швидкий старт
+
+**Найпростіше:** склонуй репо, відкрий папку в Claude Code і скажи «налаштуй мені це». У репо лежить [CLAUDE.md](CLAUDE.md) з інструкцією для Claude: він спитає, чим ти займаєшся, перевірить середовище, поставить потрібні скіли й плагіни і покаже, як ними користуватись.
+
+Вручну:
 
 1. Встанови [Claude Code](https://claude.com/claude-code).
 2. Склонуй репо:
