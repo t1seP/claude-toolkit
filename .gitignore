@@ -1,0 +1,16 @@
+.env
+*.env
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# засідання Roast Room лишаються локально, приклади йдуть з репо
+apps/roast-room/sessions/*
+!apps/roast-room/sessions/.gitkeep
+!apps/roast-room/sessions/*example*/
+apps/roast-room/*.log
