@@ -85,7 +85,7 @@ CATALOG.md         інші репозиторії, які я перевірив
 
 - `video-craft`: мої правила монтажу, зібрані з рілсів і реальних рендерів: склейка по погляду і «правило шести» Мерча, безпечні зони 9:16, хук-перехід-тіло, рухи камери для промптів відеонейромереж, стиль HUD Lime, граблі Remotion.
 - `hyperframes/skills/*` ([heygen-com/hyperframes](https://github.com/heygen-com/hyperframes), Apache-2.0): 21 скіл для відео з HTML/CSS: субтитри (`embedded-captions`), перемонтаж говорящої голови (`talking-head-recut`), моушн-графіка, відео під музику, faceless-пояснювачі, слайдшоу, переїзд з Remotion.
-  ⚠ Скіл `hyperframes` оголошує себе обов'язковою точкою входу для **будь-якого** запиту про відео. Якщо ти робиш відео в Remotion, він перехоплюватиме запити. Тому `install.sh` за замовчуванням HyperFrames не ставить, лише з прапорцем `hyperframes`. Для рендеру потрібен ще npm-пакет `hyperframes` (Node 22+, тягне Chromium).
+  ⚠ Скіл `hyperframes` оголошує себе обов'язковою точкою входу для **будь-якого** запиту про відео. Якщо ти робиш відео в Remotion, він перехоплюватиме запити. Тому `install.sh` за замовчуванням HyperFrames не ставить, лише з прапорцем `hyperframes`. Для рендеру потрібен ще npm-пакет `hyperframes` (Node 22+, тягне Chromium). Скрипти `media-use` шлють анонімну статистику використання в PostHog HeyGen; вимкнути: `HYPERFRAMES_NO_TELEMETRY=1` або `DO_NOT_TRACK=1`.
 
 ## Roast Room (`apps/roast-room`)
 
